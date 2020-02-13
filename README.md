@@ -12,19 +12,25 @@ What you need to run this app:
 
 ### Setup
 
-* 1 - Clone this repo: 
+* 1 - Clone this repo in your directory <yourDirectory>
 
 ````
-git clone https://github.com/kevinchisholm/node-express-static-web-server.git
+git clone git@github.com:PAI-ULL/node-express-static-web-server.git <yourDirectory>
 ````
 
-* 2 - Run this command:
+* 2 - go <into yourDirectory>
+
+````
+cd <yourDirectory>
+````
+
+* 3 - Run this command:
 
 ````
 npm install
 ````
 
-* 3 Run this command:
+* 4 Run this command:
 
 ````
 npm start
@@ -33,5 +39,7 @@ npm start
 * 4 Point your browser to:
 
 ````
-http://localhost:3000
+http://<your VM IP address>:8080
 ````
+
+
