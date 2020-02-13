@@ -1,15 +1,15 @@
-var express = require('express'),
-  path = require('path'),
-  app = express();
+const EXPRESS = require('express');
+const PATH = require('path');
+const APP = EXPRESS();
 
 //set the port
-app.set('port', 3000);
+APP.set('port', 8080);
 
 //tell express that we want to use the www folder
 //for our static assets
-app.use(express.static(path.join(__dirname, '../www')));
+APP.use(EXPRESS.static(PATH.join(__dirname, '../www')));
 
 // Listen for requests
-var server = app.listen(app.get('port'), function () {
-  console.log('The server is running on http://localhost:' + app.get('port'));
+const SERVER = APP.listen(APP.get('port'), '0.0.0.0', function () {
+  console.log('The server is running on http://<your machine IP addr>:' + APP.get('port'));
 });
