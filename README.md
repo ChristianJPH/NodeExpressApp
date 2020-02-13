@@ -12,13 +12,13 @@ What you need to run this app:
 
 ### Setup
 
-* 1 - Clone this repo in your directory <yourDirectory>:
+* 1 - Clone this repo in your directory:
 
 ````
 git clone git@github.com:PAI-ULL/node-express-static-web-server.git <yourDirectory>
 ````
 
-* 2 - move to <yourDirectory>:
+* 2 - move to yourDirectory:
 
 ````
 cd <yourDirectory>
